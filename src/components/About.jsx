@@ -31,7 +31,7 @@ const About = () => {
       <h2 className={isVisible ? 'animate-fade-in' : 'opacity-0'}>
         About <span className="highlight">Me</span>
       </h2>
-      
+
       <div className={`about-content glass-card ${isVisible ? 'animate-fade-in delay-200' : 'opacity-0'}`}>
         <div className="about-text">
           <p>
@@ -43,14 +43,14 @@ const About = () => {
           <p>
             I am currently seeking an internship in Data Science, Machine Learning Engineering, or Backend Development to apply my skills in real-world environments.
           </p>
-          
+
           <div className="about-actions mt-8">
             <a href="https://docs.google.com/document/d/19lYsTXXmsuiykJN6klavPFyl_SLo4H3hs7FHkIvluik/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary">
               <Download size={20} /> View / Download CV
             </a>
           </div>
         </div>
-        
+
         <div className="about-stats">
           <div className="stat-item">
             <span className="stat-number highlight">4+</span>
@@ -61,7 +61,7 @@ const About = () => {
             <span className="stat-label">Core Focus</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number highlight">Java/JS</span>
+            <span className="stat-number highlight">Python/JS</span>
             <span className="stat-label">Tech Stack</span>
           </div>
         </div>

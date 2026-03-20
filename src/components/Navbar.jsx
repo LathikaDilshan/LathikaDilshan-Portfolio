@@ -30,7 +30,7 @@ const Navbar = () => {
     <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <a href="#home" className="logo">
-          Port<span className="logo-accent">folio</span>.
+          Lathika<span className="logo-accent">Dilshan</span>
         </a>
 
         {/* Desktop Nav */}
@@ -55,8 +55,8 @@ const Navbar = () => {
         <ul className="mobile-nav-list">
           {navLinks.map((link) => (
             <li key={link.name}>
-              <a 
-                href={link.href} 
+              <a
+                href={link.href}
                 className="mobile-nav-link"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
